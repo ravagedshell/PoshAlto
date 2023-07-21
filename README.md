@@ -1,10 +1,11 @@
-# Documentation for PAN OS Automation Script
+# Documentation for PoshAlto, a Primitive PowerShell tool to Automate PAN-NGFW Config Changes
+
 Written by ravagedshell <github.com/ravagedshell>
 Last Modified 05/05/2019
 Note, this script is only tested to work using the RESTful XML API on PAN OS 8.1 and earlier.
-Purpose:
 
-The purpose of this automation script is to enable users to import and implement robust firewall configurations with little more work than filling out some excel spreadsheets and running a PowerShell command. I created this out of neseccity when onboarding new power generation facilities back when I worked in the Energy Industry. I think I made this in like 20-minutes, maybe I'll put some work into this some time and make something more useful out of it.
+# Purpose:
+The purpose of this automation script is to enable users to import and implement robust firewall configurations with little more work than filling out some excel spreadsheets and running a PowerShell command. I created this out of neseccity when onboarding new power generation facilities back when I worked in the Energy Industry. Back then, some people thought spending money on Panorama was a bit untenable, but I was responsible for onboarding new sites and bringing their firewalls into compliance with NERC-CIP standards and didnt want to do them all through the GUI or Copy-Paste over SSH one-by-one. I think I made this in like 20-minutes, maybe I'll put some work into this some time and make something more useful out of it.
 
 Background knowledge of security policies, zone-based firewalls, IPSec Tunnels, NAT policies, and other firewall concepts are required to properly fill out the required spreadsheets. At the time that this documentation was written, there are currently 12 separate automation functions.
 
