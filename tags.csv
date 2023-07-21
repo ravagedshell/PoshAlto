@@ -1,0 +1,10 @@
+﻿name,color,comment
+SiteInternal,color13,Internal Site Traffic
+StrataSolar,color20,Traffic Related to Strata Solar Monitoring and Control
+PJM,color8,Traffic Related to PJM Monitoring and Control
+Dominion,color8,Traffic Related to Dominion Monitoring and Control
+NextTracker,color5,Traffic Related to NextTracker 3rd Party Vendor Access
+TriMark,color4,Traffic Related to TriMark 3rd Party Vendor Access
+ECI,color20,Traffic Related to ECI 3rd Party Vendor Access
+Untrusted,color1,Untrusted Traffic
+NorCal,color10,Traffic Related to NorCal 3rd Party Vendor Access
